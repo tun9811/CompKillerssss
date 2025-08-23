@@ -343,18 +343,18 @@ local Compkiller = {
 };
 
 Compkiller.Colors = {
-			Highlight = Color3.new(0.0666667, 0.992157, 0.628343),
-			Toggle = Color3.new(0, 0.613793, 0.220119),
-			Risky = Color3.new(1, 0.398296, 0.152941),
-			BGDBColor = Color3.new(0.0429964, 0.110345, 0.0727226),
-			BlockColor = Color3.new(0, 0.137931, 0.0951249),
-			StrokeColor = Color3.new(0.132342, 0.241379, 0.198517),
-			SwitchColor =  Color3.new(0.927586, 1, 0.980523),
-			DropColor = Color3.new(0, 0.227586, 0.100452),
-			MouseEnter = Color3.new(0, 0.841379, 0.51063),
-			BlockBackground = Color3.new(0.159287, 0.234483, 0.201811),
-			LineColor = Color3.new(0.263258, 0.372414, 0.329504),
-			HighStrokeColor = Color3.new(0, 0.241379, 0.186445),
+			Highlight = Color3.new(0, 1, 0.431),
+			Toggle = Color3.new(0, 0.8, 0.345),
+			Risky = Color3.new(0.984, 1, 0.153),
+			BGDBColor = Color3.new(0.086, 0.094, 0.114),
+			BlockColor = Color3.new(0.110, 0.114, 0.133),
+			StrokeColor = Color3.new(0.145, 0.149, 0.169),
+			SwitchColor =  Color3.new(1, 1, 1),
+			DropColor = Color3.new(0.129, 0.137, 0.153),
+			MouseEnter = Color3.new(0.216, 0.227, 0.255),
+			BlockBackground = Color3.new(0.153, 0.157, 0.184),
+			LineColor = Color3.new(0.255, 0.255, 0.255),
+			HighStrokeColor = Color3.new(0.216, 0.220, 0.247),
 };
 
 Compkiller.Elements = {
@@ -4900,18 +4900,18 @@ end;
 function Compkiller:SetTheme(name)
 	if name == "Default" then
 		Compkiller.Colors = {
-			Highlight = Color3.new(0.0666667, 0.992157, 0.628343),
-			Toggle = Color3.new(0, 0.613793, 0.220119),
-			Risky = Color3.new(1, 0.398296, 0.152941),
-			BGDBColor = Color3.new(0.0429964, 0.110345, 0.0727226),
-			BlockColor = Color3.new(0, 0.137931, 0.0951249),
-			StrokeColor = Color3.new(0.132342, 0.241379, 0.198517),
-			SwitchColor =  Color3.new(0.927586, 1, 0.980523),
-			DropColor = Color3.new(0, 0.227586, 0.100452),
-			MouseEnter = Color3.new(0, 0.841379, 0.51063),
-			BlockBackground = Color3.new(0.159287, 0.234483, 0.201811),
-			LineColor = Color3.new(0.263258, 0.372414, 0.329504),
-			HighStrokeColor = Color3.new(0, 0.241379, 0.186445),
+			Highlight = Color3.new(0, 1, 0.431),
+			Toggle = Color3.new(0, 0.8, 0.345),
+			Risky = Color3.new(0.984, 1, 0.153),
+			BGDBColor = Color3.new(0.086, 0.094, 0.114),
+			BlockColor = Color3.new(0.110, 0.114, 0.133),
+			StrokeColor = Color3.new(0.145, 0.149, 0.169),
+			SwitchColor =  Color3.new(1, 1, 1),
+			DropColor = Color3.new(0.129, 0.137, 0.153),
+			MouseEnter = Color3.new(0.216, 0.227, 0.255),
+			BlockBackground = Color3.new(0.153, 0.157, 0.184),
+			LineColor = Color3.new(0.255, 0.255, 0.255),
+			HighStrokeColor = Color3.new(0.216, 0.220, 0.247),
 		};
 	elseif name == "Dark Blue" then
 		Compkiller.Colors = {
